@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="css/style.css">
+        <title>Web Portfolio - Nabil Dhia Pratama - 247006111019</title>
+    </head>
+    <body>
+        <!--Navbar-->
+        <nav>
+            <div class="left">
+                <a href="/">NA</a>
+            </div>
+            <div class="right">
+                <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                    <span>Github</span>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="mailto:jjj@example.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </nav>
+        <main>
+            <!-- Bagian 1: Hero Section -->
+             <section class="hero-section">
+                <div class="text">
+                    <h2>Salam, saya Nabil</h2>
+                    <p>Pekenalkan, saya Nabil Dhia Pratama, seorang mahasiswa Informatika di Universitas Siliwangi yang berfokus dalam Software Engineering, Software Development, dan Cybersecurity.</p>
+
+                    <div class="links">
+                        <a href="#skill">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Skill</span>
+                        </a>
+                        <a href="#project">
+                            <i class="fa-solid fa-laptop-file"></i>
+                            <span>Project</span>
+                        </a>
+                        <a href="#testimony">
+                            <i class="fa-solid fa-pen"></i>
+                            <span>Testimony</span>
+                        </a>
+                        <a href="#contact">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="profil">
+                    <img src="images/profil.jpg" alt="tes gambar" height="350">
+                </div>
+             </section>
+
+            <!-- Bagian 2: Skill -->
+             <section id="skill" class="skill-section">
+                <h2>Skill</h2>
+                <div class="text">
+                    Saya mempunyai skill dalam membuat software menggunakan beberapa bahasa pemrograman yang populer seperti C/C++, Java, dan Python.
+                </div>
+                <div class="cells">
+                    <div class="cell">
+                        <img src="images/The_C_Programming_Language_logo.svg" alt="c logo">
+                        <span>C</span>
+                    </div>
+                    <div class="cell">
+                        <img src="images/Java_programming_language_logo.svg" alt="java logo">
+                        <span>Java</span>
+                    </div>
+                    <div class="cell">
+                        <img src="images/Python-logo-notext.svg.png" alt="python logo">
+                        <span>Python</span>
+                    </div>
+                </div>
+             </section>
+
+           <!-- Bagian 3: Project -->
+            <section id="project" class="project-section">
+                <h2>Project</h2>
+                <div class="project-container">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/Br.png" alt="Project 1">
+                        </div>
+                        <div class="project-content">
+                            <h3>Sistem Manajemen Garis</h3>
+                            <p>Implementasi algoritma Bresenham dan DDA menggunakan Python untuk visualisasi grafis komputer yang presisi.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/ecommerce.png" alt="Project 2">
+                        </div>
+                        <div class="project-content">
+                            <h3>Aplikasi E-Commerce</h3>
+                            <p>Membangun platform belanja online responsif dengan integrasi payment gateway dan manajemen inventaris real-time untuk sebuah UMKM.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+           <!-- Bagian 4: Testimony -->
+            <section id="testimony" class="testimony-section">
+                <h2>Testimony</h2>
+
+                <div class="group">
+                    <div class="g-detail">
+                        <img src="images/curahde.png" alt="">
+                        <p>Jun</p>
+                        <p>Pemilik UMKM</p>
+                    </div>
+                    <div class="text">
+                        Website E-Commerce yang dibuat telah berhasil mengoptimasikan proses bisnis sehingga dapat menjadi lebih kompetitif. Website ini mempermudah para customer saya untuk membeli produk-produk saya sehingga tidak perlu menjual repot secara manual.
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bagian 5: Contact -->
+             
+            <section id="contact" class="contact-section">
+                <h2>Contact</h2>
+
+                <div class="group">
+                    <div class="text">
+                        Jika punya ide atau ada yang ingin disampaikan kepada saya, kirim saja di contact form ini.
+                    </div>
+
+                    <form>
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+
+                        <label for="pesan">Pesan</label>
+                        <textarea id="pesan"></textarea>
+
+                        <button type="submit">Kirim Pesan</button>
+                    </form>
+                </div>
+
+            </section>
+        </main>
+    </body>
+    
+</html>
